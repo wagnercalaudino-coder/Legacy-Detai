@@ -1,35 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Legacy Detail</title>
+
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
 body {
-  font-family: Arial;
-  text-align: center;
-  background: #111;
+  background: #0b0b0b;
   color: white;
 }
-h1 {
-  font-size: 40px;
+
+header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  background: #111;
 }
-button {
-  background: white;
-  padding: 15px;
-  border-radius: 10px;
+
+h1 {
+  font-size: 45px;
+  color: #d4af37;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+p {
   font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: #d4af37;
+  color: black;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.servicos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #171717;
+  padding: 25px;
+  width: 280px;
+  border-radius: 15px;
+  border: 1px solid #333;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #000;
+  color: #aaa;
 }
 </style>
+
 </head>
 
 <body>
 
-<h1>Legacy Detail</h1>
+<header>
+<div>
+<h1>LEGACY DETAIL</h1>
 
-<p>Estética automotiva com qualidade e cuidado.</p>
+<p>Estética automotiva com qualidade, cuidado e profissionalismo.</p>
 
-<p>Agende seu horário pelo WhatsApp</p>
+<a class="botao" href="https://wa.me/5542984353802">
+Agendar pelo WhatsApp
+</a>
 
-<button>Chamar no WhatsApp</button>
+</div>
+</header>
+
+
+<section>
+
+<h2>Nossos Serviços</h2>
+
+<div class="servicos">
+
+<div class="card">
+<h3>Lavagem Premium</h3>
+<p>Limpeza completa com cuidado nos mínimos detalhes.</p>
+</div>
+
+<div class="card">
+<h3>Higienização Interna</h3>
+<p>Interior renovado, cheiro agradável e mais conforto.</p>
+</div>
+
+<div class="card">
+<h3>Polimento</h3>
+<p>Mais brilho e recuperação da pintura do veículo.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Por que escolher a Legacy?</h2>
+
+<p>
+✔ Atendimento de qualidade<br>
+✔ Produtos profissionais<br>
+✔ Paixão por carros
+</p>
+
+</section>
+
+
+<footer>
+<p>Legacy Detail © 2026</p>
+<p>@Legacy_DetailPR</p>
+</footer>
 
 </body>
 </html>
